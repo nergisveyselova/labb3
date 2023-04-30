@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 60px;
+    background: #212529;
+}
+
+nav .navbar{
+    margin: auto;
+    display: flex;
+    margin-left: 10px;
+}
+
+nav .navbar .logo a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+nav .navbar .nav-links .links{
+    display: flex;
+}
+
+nav .navbar .nav-links .links li{
+    list-style: none;
+    display: flex;
+    white-space: nowrap;
+    padding-left: 20px;
+}
+
+nav .navbar .nav-links .links{
+    margin-top: 8px;
+    margin-left: 1150px;
+}
+
+nav .navbar .nav-links .links li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding-left: 5px;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+}
+
+.logo{
+    margin-top: 5px;
+    display: flex;
+    position: fixed;
+    margin-left: 5px;
+}
+
+.kub{
+    border: 1px solid black;
+    width: 100%;
+    height: 440px;
+    background-color: #212529;
+}
+
+.kub h1{
+    margin-top: 120px;
+    color: white;
+    position: relative;
+    text-align: center;
+    font-size: 45px;
+}
+
+.kub p{
+    color: rgb(210, 209, 209);
+    position: absolute;
+    text-align: center;
+    position: relative;
+    font-size: 17px;
+    padding: 5px;
+}
+
+.kub .buttons{
+    position: absolute;
+    position: relative;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.kub .buttons button{
+    height: 40px;
+    width: 120px;
+    margin-top: 25px;
+    transition: all 0.3s ease-in-out;
+}
+
+.kub .buttons .get{
+    margin-right: 15px;
+}
+
+.kub .buttons a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.get{
+    border-style: none;
+    background-color: #0D6EFD;
+    border-radius: 7px;
+}
+
+.learn{
+    background-color: rgba(0, 0, 0, 0);
+    border: 1.5px solid white;
+    border-radius: 7px;
+}
+
+.get:hover{
+    background-color: #1063df;
+}
+
+.learn:hover{
+    background-color: #111316;
+}
+
+    height: 250px;
+	nav .navbar .nav-links .links li a:hover{
+    color: rgb(203, 203, 203);
+}
+
+.kub1{
+    margin-top: 50px;
+    width: calc(100% / 3);
+    height: 250px;
+    display: inline-block;
+    position: relative;
+}
+
+.kub2{
+    margin-top: 50px;
+    width: calc(100% / 3);
+    height: 250px;
+    display: inline-block;
+    position: absolute;
+    position: relative;
+}
+
+.kub3{
+    margin-top: 50px;
+    width: 500px;
+    height: 250px;
+    display: inline-block;
+    position: absolute;
+}
+
+i{
+    position: absolute;
+    font-size: 30px;
+    margin: 20px 0 0 30px;
+    color: white;
+    background-color: #0D6EFD;
+    border-radius: 7px;
+    padding: 7px;
+}
+
+.kub1 h1{
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 30px;
+}
+
+.kub2 h1{
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 30px;
+}
+
+.kub3 h1{
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 30px;
+}
+
+.kub1 p{
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 30px;
+    color: rgb(180, 177, 177);
+}
+
+.kub2 p{
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 30px;
+    color: rgb(180, 177, 177);
+    text-justify: inter-cluster;
+}
+
+.kub3 p{
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 30px;
+    color: rgb(180, 177, 177);
+}
+
+.kub3 a{
+    position: absolute;
+    margin-top: 190px;
+    margin-left: 30px;
+    text-decoration: none;
+    color: #0D6EFD;
+    font-weight: 500;
+}
+
+.kub2 a{
+    position: absolute;
+    margin-top: 190px;
+    margin-left: 30px;
+    text-decoration: none;
+    color: #0D6EFD;
+    font-weight: 500;
+}
+
+.kub1 a{
+    position: absolute;
+    margin-top: 190px;
+    margin-left: 30px;
+    text-decoration: none;
+    color: #0D6EFD;
+    font-weight: 500;
+}
+
+.kub3 a i{
+    font-size: 15px;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0);
+    color: #0D6EFD;
+}
+
+.kub2 a i{
+    font-size: 15px;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0);
+    color: #0D6EFD;
+}
+
+.kub1 a i{
+    font-size: 15px;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0);
+    color: #0D6EFD;
+}
+
+.foot{
+    width: 100%;
+    height: 200px;
+    border-top: 2px solid rgb(180, 177, 177);
+    background-color: rgb(235, 235, 235);
+    text-align: center;
+}
+
+.foot h1{
+    margin-top: 80px;
+}
